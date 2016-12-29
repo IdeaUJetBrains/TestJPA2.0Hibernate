@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm_2_0.xsd"
+                 version="2.0">
+    <entity class="notentity.Bus">
+        <table name="BUS" schema="PUBLIC" catalog="PUBLIC"/>
+        <attributes>
+            <id name="id">
+                <column name="ID" precision="32"/>
+            </id>
+            <basic name="number">
+                <column name="NUMBER" />
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
